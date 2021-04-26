@@ -5,6 +5,8 @@
         <title>Gail's Creations</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css" />
     </head>
 	<body>
@@ -17,25 +19,133 @@
     <!--Navbar-->
     <nav>
         <ul>
-            <li>About</li>
-            <li>Cuisine</li>
-            <li>Contact</li>
+            <li><a href="#food">Our Cuisine</a></li>
+            <li><a href="#chef">Meet the Chef</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <hr class="solid">
 
-    <!--Jumbotron-->
-    <div>
-        <!--Image-->
-        
+    <!--Hero-->
+    <div class="container">
         <!--Text-->
+        <div class="herotext">
+            <h1>Catered Cuisine</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque aliquid iusto totam nesciunt expedita quasi aut optio aspernatur veritatis exercitationem voluptatibus cupiditate dignissimos suscipit similique iure, earum illum nostrum fugit!</p>
+            <div>
+                <button class="button">Get a Quote</button>
+            </div>
+        </div>
+        <!--Image-->
+        <img class="heroimage" src="images/sample10.jpg" alt="food">
     </div>
+    <hr class="solid">
 
     <!--Food Categories-->
-    <div></div>
+
+    <div id="food">
+        <div class="sectionheader">
+            <h2>Our Cuisine</h2>
+            <p>Description of the tasty food items here.</p>
+        </div>
+
+        <div class="card-deck">
+
+            <div class="card cardstyle">
+                <img class="card-img-top" src="./images/sample1.jpg" alt="Card image">
+                <div class="card-body card-body-internal">
+                    <h4 class="card-title">Category 1</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cardstyle" style="width:400px">
+                <img class="card-img-top" src="./images/sample7.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Category 2</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button link">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cardstyle" style="width:400px">
+                <img class="card-img-top" src="./images/sample3.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Category 3</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cardstyle" style="width:400px">
+                <img class="card-img-top" src="./images/sample4.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Category 4</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cardstyle" style="width:400px">
+                <img class="card-img-top" src="./images/sample5.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Category 5</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cardstyle" style="width:400px">
+                <img class="card-img-top" src="./images/sample6.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Category 6</h4>
+                    <p class="card-text">Some example text.</p>
+                    <div class="menubutton">
+                        <a href="#" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="solid">
+
+    <!--Meet the Chef-->
+
+    <div id="chef">
+        <div class="sectionheader">
+            <h2>Meet the Chef</h2>
+        </div>
+
+    </div>
+
+    <!--Contact Form-->
+
+    <div id="contact">
+        <div class="sectionheader">
+            <h2>Contact Us</h2>
+            <p></p>
+        </div>
+
+    </div>
 
     <!--Footer-->
-    <div></div>
+    <div class="homefooter">
+        <a href="https://www.facebook.com/gwagoner63/" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
 
 
 	</body>

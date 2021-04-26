@@ -1,8 +1,16 @@
+/*PAGE ELEMENTS*/
+
 :root {
     --primary: #f14a51;
     --secondary: #227a51;
     --tertiary: #d0b362;
 }
+
+body {
+    padding: 50px;
+}
+
+/* LOGO */
 
 .logo {
     text-align: center;
@@ -10,13 +18,21 @@
     margin-bottom: -80px;
 }
 
+/* NAV */
+
 nav {
    text-align: center;
 }
 
-/* ul {
-    margin-left: 30px;
-} */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
 
 ul li {
     display: inline-block;
@@ -25,10 +41,124 @@ ul li {
     font-family: 'Orelega One', cursive;
 }
 
-ul li:hover {
-    color: var(--secondary);
-}
-
 .solid {
     border-top: 3px solid #bbb;
 }
+
+/* HERO */
+
+.container {
+    padding: 20px 40px 40px;
+    display: flex;
+    margin: auto;
+}
+
+.heroimage {
+    margin: 20px 30px 5px 5px;
+    width: 60%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+h1 {
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+}
+
+.herotext {
+    flex: 1 1 auto;
+    margin: 10px;
+}
+
+.button {
+    background-color: var(--secondary);
+    padding: 14px 40px;
+    color: white;
+    border-style: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* FOOD DISPLAY */
+
+.sectionheader {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.cardstyle {
+    min-width:300px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+}
+
+.card-text {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.menubutton {
+    text-align: center;
+}
+
+link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* MEET THE CHEF */
+
+/* CONTACT */
+
+
+
+
+/* FOOTER */
+
+.homefooter {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.fa:hover {
+    color: var(--primary);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
