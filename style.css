@@ -130,8 +130,53 @@ link:hover {
 
 /* MEET THE CHEF */
 
+.gailphoto {
+    width: 25%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: var(--tertiary);
+}
+
+.cheftext {
+    margin-top: 10px;
+    padding: 10px;
+}
+
 /* CONTACT */
 
+.formwrapper {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.formclass {
+    display: inline-block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.formdescription {
+    width: 75%;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 2%;
+}
+
+label {
+    color: var(--secondary);
+    font-weight: bolder;
+}
+
+.phone {
+    color: var(--tertiary);
+}
 
 
 
