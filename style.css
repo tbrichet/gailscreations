@@ -38,7 +38,10 @@ ul li {
     display: inline-block;
     padding: 20px;
     font-size: 20px;
-    font-family: 'Orelega One', cursive;
+    /* font-family: 'Orelega One', cursive; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 
 .solid {
@@ -61,7 +64,8 @@ ul li {
 }
 
 h1 {
-    font-family: 'Orelega One', cursive;
+    /* font-family: 'Orelega One', cursive; */
+    font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
 }
 
@@ -95,7 +99,8 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: 'Orelega One', cursive;
+    /* font-family: 'Orelega One', cursive; */
+    font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
     margin-top: 30px;
 }
@@ -113,7 +118,8 @@ h2 {
 
 h4 {
     text-align: center;
-    font-family: 'Orelega One', cursive;
+    /* font-family: 'Orelega One', cursive; */
+    font-family: 'Fredericka the Great', cursive;
 }
 
 .card-text {
